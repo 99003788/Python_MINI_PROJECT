@@ -7,5 +7,5 @@
 | 3 | Excel file format | Excel file should be of .xlsx format | Implemented |
 | 4 | Reading Data | Reading all multiple sheets | Implemented |
 | 5 | Searching Data | Search for specific data based on user specifc input | Implementing|
-| 6 | Writing particular data | Only specific kind of data should be written to Mastersheet| Implementing | 
-
+| 6 | Writing data to Mastersheet | All kinds of data related to that specific searched data should be written to Mastersheet| Implementing | 
+| 7 | Writing data to Summarysheet | Counting the data across the rows in the Mastersheet and publishing the data in the Summarysheet | Implemented |
