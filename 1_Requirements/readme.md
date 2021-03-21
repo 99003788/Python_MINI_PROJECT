@@ -32,3 +32,7 @@ In this project, we are analyzing data  from 5 different excel spreadsheets and 
 *	Input:- We need to give the person's PS Number as input.
 *	Output: -We will get all the relevant information of that person whose PS Number is entered. 
 *	source: -All the relevant data will get copied in master sheet.
+
+
+## SWOT Analysis 
+![2021-03-22 (2)](https://user-images.githubusercontent.com/78849542/111923730-8c7b9880-8ac6-11eb-9c27-3baeaad310eb.png)
