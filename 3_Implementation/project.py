@@ -37,8 +37,7 @@ for list_of_sheet_index in range(0, len(list_of_sheets)):
         sheet_row = list_of_sheets[list_of_sheet_index].max_row  # Calculating max rows
         sheet_column = list_of_sheets[list_of_sheet_index].max_column  # Calculating max columns
         for sheet_column_index in range(1, sheet_column + 1):
-            master_sheet.cell(row=new_row_index, column=sheet_column_index).value = list_of_sheets[
-                list_of_sheet_index].cell(row=1, column=sheet_column_index).value  # Copying all the headers from all the excel sheets into the mastersheet
+            master_sheet.cell(row=new_row_index, column=sheet_column_index).value = list_of_sheets[list_of_sheet_index].cell(row=1, column=sheet_column_index).value  # Copying all the headers from all the excel sheets into the mastersheet
         new_row_index += 1
         for data_input_index in range(len(data_input)):
             for sheet_row_index in range(1, sheet_row + 1):
