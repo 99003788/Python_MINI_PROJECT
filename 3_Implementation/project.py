@@ -45,7 +45,8 @@ class main(accept_value):
                 sheet_row = list_of_sheets[list_of_sheet_index].max_row  # Calculating max rows
                 sheet_column = list_of_sheets[list_of_sheet_index].max_column  # Calculating max columns
                 for sheet_column_index in range(1, sheet_column + 1):
-                    master_sheet.cell(row=new_row_index, column=sheet_column_index).value = list_of_sheets[list_of_sheet_index].cell(row=1, column=sheet_column_index).value  # Copying all the headers from all the excel sheets into the master sheetnew_row_index += 1
+                    master_sheet.cell(row=new_row_index, column=sheet_column_index).value = list_of_sheets[list_of_sheet_index].cell(row=1, column=sheet_column_index).value  # Copying all the headers from all the excel sheets into the master sheet
+                new_row_index += 1
                 for data_input_index in range(len(data_input)):
                     for sheet_row_index in range(1, sheet_row + 1):
                         if list_of_sheets[list_of_sheet_index].cell(row=sheet_row_index, column=1).value == int(data_input[data_input_index]):  #
@@ -77,3 +78,4 @@ class main(accept_value):
 
 
 main.my_func()
+
